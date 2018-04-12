@@ -1,0 +1,52 @@
+/* pages/userLogin/userLogin.wxss */
+view,form,button {
+  font-size:'72'
+}
+
+form  {
+  margin-top: 100rpx;
+  display: flex;
+  justify-content: center;
+}
+
+ .imgBox {
+  display: flex;  
+  justify-content: center; 
+  /* height: 200rpx; */
+  /* width: 200rpx; */
+} 
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 40rpx;
+  width: 500rpx;
+  border-bottom: 1px #509AFF solid;
+}
+
+input {
+  width: 500rpx;
+  margin-bottom: 6rpx;
+}
+
+.innerStyle {
+  font-family: '72';
+  color: #BDBDBD;
+}
+
+button {
+  border-radius: 25px;
+  width: 300rpx;
+  margin-top: 50rpx;
+  background-color: #509AFF;
+  color: #fff;
+  font-family: '72';
+
+}
+
+.slogan {
+  margin-top: 20rpx;
+  color: #509AFF;
+  font-size: 30rpx;
+  text-align: center
+}

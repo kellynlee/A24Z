@@ -1,0 +1,90 @@
+/* pages/createOpportunity.wxss */
+/* @import"../../weui.wxss";  */
+page {
+  height: 100%;
+  /* background-color: #f8f8f8; */
+}
+view,text,button{
+  font-family: '72';
+}
+
+.title {
+  font-size: 40rpx;
+  padding: 20rpx 0 0 20rpx;
+  background-color: #509AFF;
+  margin-bottom: 20rpx;
+  color: #fff;
+  height: 80rpx;
+}
+
+.container {
+  margin: 40rpx 0 0 0;
+}
+
+.row {
+  display: block;
+  width: 600rpx;
+  margin-bottom: 10rpx;
+  margin-left: 30rpx;
+}
+
+.subTitle {
+  display: block;
+  margin-top: -28rpx;
+  font-size: 28rpx;
+  color: #8a8a8a
+}
+
+.row:nth-child(3) .formBody {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+}
+
+.row:nth-child(3) .formBody input {
+  width: 480rpx;
+  margin-left: 20rpx;
+}
+
+picker {
+  width: 100rpx;
+  display: block;
+  margin-top: 15rpx;
+}
+
+.picker {
+  font-family: '72';
+  color: #BDBDBD
+}
+
+input {
+  border-bottom: 1px solid #BDBDBD;  
+  height: 63rpx;
+}
+
+.disable {
+  color: #8a8a8a;
+}
+
+.innerStyle {
+  font-family: '72';
+  color: #BDBDBD;
+  font-size: 32rpx;
+}
+
+.row:nth-child(6),
+.row:nth-child(7) {
+  width: 100%;
+  margin-left: 0;
+}
+
+button{
+  width: 600rpx;
+  background-color: #509AFF;
+  color: #fff;
+  margin-top: 40rpx;
+}
+
+.cancel button {
+  background-color: #BDBDBD
+}
